@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('header.css');
+@import url('main.css');
+@import url('social.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;  
+    font-family: 'Dosis', sans-serif;
+    height: 100vh;
+    background-color: #1fc8db;
+    background-image: linear-gradient(90deg, #8f8f8f 0%, #4e4e4e 51%, #000000 75%);
+    background-size: 400% 400%;
+    color: #faebd7;
+    letter-spacing: 0.035em;
+    animation: gradient 15s ease infinite;
+}
+/* unvisited link */
+a:link {
+    color: #faebd7;
+} 
+/* visited link */
+a:visited {
+    color: #faebd7;
+} 
+/* mouse over link */
+a:hover {
+    color: #ff7ebf;
+} 
+/* selected link */
+a:active {
+    color: #fc3e9d;
+} 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
