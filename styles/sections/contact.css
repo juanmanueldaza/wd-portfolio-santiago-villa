@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .contact-image {
@@ -11,4 +10,8 @@
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
+}
+
+.contact-detail {
+    padding-left: 10px;
 }

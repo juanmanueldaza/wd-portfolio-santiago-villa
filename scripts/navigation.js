@@ -15,29 +15,49 @@ home_button.onclick = () => {
     bio.style.display = show;
     music.style.display = hide;
     portfolio.style.display = hide;
-    contact.style.display = hide;
+    contact.style.display = hide; 
 }
 bio_button.onclick = () => {
     bio.style.display = show;
     music.style.display = hide;
     portfolio.style.display = hide;
     contact.style.display = hide;
+    if (nav.style.flexDirection == 'column') {
+        nav.style.display = hide;
+    }
+    hamburger.style.display = show;
+    cross.style.display = hide;
 }
 music_button.onclick = () => {
     bio.style.display = hide;
     music.style.display = show;
     portfolio.style.display = hide;
     contact.style.display = hide;
+    if (nav.style.flexDirection == 'column') {
+        nav.style.display = hide;
+    }
+    hamburger.style.display = show;
+    cross.style.display = hide;
 }
 portfolio_button.onclick = () => {
     bio.style.display = hide;
     music.style.display = hide;
     portfolio.style.display = show;
     contact.style.display = hide;
+    if (nav.style.flexDirection == 'column') {
+        nav.style.display = hide;
+    }
+    hamburger.style.display = show;
+    cross.style.display = hide;
 }
 contact_button.onclick = () => {
     bio.style.display = hide;
     music.style.display = hide;
     portfolio.style.display = hide;
     contact.style.display = show;
+    if (nav.style.flexDirection == 'column') {
+        nav.style.display = hide;
+    }
+    hamburger.style.display = show;
+    cross.style.display = hide;
 }
