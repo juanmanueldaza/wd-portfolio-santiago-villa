@@ -24,5 +24,4 @@ dropdown.onclick = () => {
     header.style.flexDirection = direction;
     hamburger.style.display = hider;
     cross.style.display = displayer;
-
 }

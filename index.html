@@ -11,7 +11,7 @@
 <body>
    
     <header id="header">
-        <div class="menu-mobile">
+        <div class="menu-mobile" id="home-button">
             <div class="membrete">
                 <h1>SANTIAGO VILLA</h1>
                 <h3>Sound Artist and Professor</h3>
@@ -24,36 +24,74 @@
         
         <nav id="nav">
             <ul id="ul">
-                <li class="li">
-                    <a class="nav-bar-links" target="_blank" href="assets/santiagovilla.pdf">BIO</a>
+                <li id="bio-button" class="li">
+                    <a class="nav-bar-links" href="#">BIO</a>
                 </li>
-                <li class="li">
-                    <a class="nav-bar-links" target="_blank" href="assets/SelectedWorksandCollaborations.pdf">PORTFOLIO</a>
+                <li id="portfolio-button" class="li">
+                    <a class="nav-bar-links" href="#">PORTFOLIO</a>
                 </li>
-                <li class="li">
-                    <a class="nav-bar-links" target="_blank" href="https://www.youtube.com/channel/UCIS0jItLrd_4RjCKPAYC6mw">EDUCATIONAL</a>
+                <li id="educational-button" class="li">
+                    <a class="nav-bar-links" href="#">EDUCATIONAL</a>
                 </li>
-                <li class="li" >
-                    <a class="nav-bar-links" target="_blank" href="https://soundcloud.com/pyronet">MUSIC</a>
+                <li id="music-button" class="li" >
+                    <a class="nav-bar-links" href="#">MUSIC</a>
                 </li>
-                <li class="li" >
-                    <a class="nav-bar-links" target="_blank" href="assets/Press.pdf">PRESS</a>
-                </li>
-                <li class="li">
-                    <a class="nav-bar-links" target="_blank" href="mailto: svilla@untref.edu.ar">CONTACT</a>
+                <li id="contact-button" class="li">
+                    <a class="nav-bar-links" href="#">CONTACT</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="master-container">
-            <section class="content">
+            <section id="home" class="home">
                 <div class="image-container">
-                    <img class="image" src="assets/IMG_1515.JPG" alt="santiago at his studio">
+                    <img class="image" src="assets/home.jpeg" alt="santiago at his studio">
                 </div>
                 <div class="text-container">
                     <p class="text">I am a sound artist and composer, graduated in Electronic Arts, professor at the university (UNTREF), researcher and academic manager, specialized in electronic synthesis and modular systems. Trained in a transdisciplinary career, I have worked through different artistic and musical development techniques, incorporating technology as a tool and science as a conceptual support.</p>  
                 </div>
+            </section>
+            <section id="bio" class="hider bio">
+                <div class="image-container">
+                    <img class="image" src="assets/bio.JPG" alt="santiago at his studio">
+                </div>
+                <div class="text-container">
+                    <p class="text">hola</p>  
+                </div>
+            </section>
+            <section id="music" class="hider music">
+                <div class="image-container">
+                    <img class="image" src="assets/music.jpeg" alt="santiago at his studio">
+                </div>
+                <div class="hider text-container">
+                    <p class="text">chau</p>  
+                </div>
+            </section>
+            <section id="portfolio" class="hider portfolio">
+                <div class="image-container">
+                    <img class="image" src="assets/portfolio.jpeg" alt="santiago at his studio">
+                </div>
+                <div class="text-container">
+                    <p class="text">viento</p>  
+                </div>
+            </section>
+            <section id="educational" class="hider educational">
+                <div class="image-container">
+                    <img class="image" src="assets/educational.jpeg" alt="santiago at his studio">
+                </div>
+                <div class="text-container">
+                    <p class="text">mar</p>  
+                </div>
+            </section>
+            <section id="contact" class="hider contact">
+                <div class="image-container">
+                    <img class="image" src="assets/contact.jpeg" alt="santiago at his studio">
+                </div>
+                <div class="text-container">
+                    <p class="text">coche</p>  
+                </div>
+            </section>
             </section>
         </div>
     </main>
@@ -86,6 +124,7 @@
         </section>
     </footer>
     <script src="scripts/dom.js"></script>
+    <script src="scripts/navigation.js"></script>
         
         
    

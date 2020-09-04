@@ -8,14 +8,16 @@ main {
 }
 .master-container {
     display:flex;
-    
-   
-    
+    flex-direction: column;
+    flex: 1;
 }
 
-.content {
-  flex: 9;
+.home {
+  
   display: flex;
+}
+.hider {
+    display: none;
 }
 .image-container {
     flex: 1;

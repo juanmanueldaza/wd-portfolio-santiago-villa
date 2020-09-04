@@ -10,6 +10,9 @@ header {
     min-width: fit-content;
     justify-content: center;    
 }
+.membrete:hover {
+    cursor: pointer;
+}
 h1 {
    text-align: justify;
    font-size: 2.5em;
