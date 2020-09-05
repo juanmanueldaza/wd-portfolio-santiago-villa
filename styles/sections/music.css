@@ -18,8 +18,33 @@
 }
 
 .bandcamp {
-   width: 50%;
-   height: 80%;
+    width: 50%;
+    height: 80%;
+    
+}
+
+.quantum {
+    background-image: url('https://f4.bcbits.com/img/a1928756412_10.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.imp {
+    background-image: url('https://f4.bcbits.com/img/a1863918445_10.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.musicapara {
+    background-image: url('https://f4.bcbits.com/img/a4152577807_10.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.noconsigo {
+    background-image: url('https://f4.bcbits.com/img/a0316372908_10.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .music-image {

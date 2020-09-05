@@ -6,6 +6,7 @@
 @import url('sections/music.css');
 @import url('sections/portfolio.css');
 @import url('sections/contact.css');
+@import url('sections/home.css');
 
 * {
     margin: 0;

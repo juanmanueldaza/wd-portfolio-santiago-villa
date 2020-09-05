@@ -17,6 +17,7 @@ main {
   flex: 1;
   min-height: 100%;
   max-height: 100%;
+  
 }
 .hider {
     display: none;
@@ -34,14 +35,14 @@ main {
     background-image: linear-gradient(90deg, rgba(131, 114, 92, 0.5) 0%, #4e4e4e 51%, #000000 75%);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    padding: 
     
    
 }
 .text {
-    display: flex;
     align-items: center;
     line-height: 3vw;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     text-align: justify;
     letter-spacing: 0.05em;
     padding: 0 10% 0 10%;
